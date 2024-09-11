@@ -12,7 +12,7 @@ mvn clean install
 ```
 
 ## 修改SavepointJob的配置
-SavepointJob是一个读取flink sql的ChangelogNormalize算子内数据的例子
+SavepointJob是一个读取flink sql的ChangelogNormalize算子内数据的例子.
 需要根据业务修改代码, 例如:savepointDirectory,saveFilePath,key和value数据结构等
 
 算子的hex string在flink job启动的debug日志中或者demo中的FlinkSnapshotAnalyzer类获取
